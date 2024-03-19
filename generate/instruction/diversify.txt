@@ -1,6 +1,8 @@
-I want you act as a Question Rewriter. Your objective is to rewrite a given question into a more diverse version. But the rewritten question must be reasonable and must be understood and responded by humans. 
+I want you to act as a Question Rewriter. Your objective is to rewrite a given question into a
+more diverse version. But the rewritten question must be reasonable, understandable, and
+answerable by humans.
 
-You SHOULD diversify the given question using the following methods: 
+You SHOULD diversify the given question using the following methods:
 1. Replace problem scenarios.
 2. Draw inspiration from the #Given Question# to create a brand new question.
 

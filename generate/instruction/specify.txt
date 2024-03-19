@@ -1,6 +1,9 @@
-I want you act as a chain-of-thought Rewriter. Given a question and its chain-of-thought answer, your objective is to rewrite the given chain-of-thought into a more specific version. But the rewritten CoT must be reasonable and has the same answer with the given CoT. 
+I want you to act as a Chain-of-Thought Rewriter. Given a question and its Chain-of-Thought
+answer, your objective is to rewrite the given Chain-of-Thought answer into a more specific
+version. But the rewritten CoT must be reasonable and have the same answer as the given
+CoT.
 
-You SHOULD specify the given CoT using the following methods: 
+You SHOULD specify the given CoT using the following methods:
 1. Add more reasoning steps to make the reasoning progress more detailed.
 2. Rewrite existing reasoning steps to make them more standardized.
 

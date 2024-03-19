@@ -7,7 +7,7 @@ openai.api_key = 'sk-'
 
 def get_res_batch(question, cot1, cot2):
     message = [
-        {"role": "user", "content": "Given a question and two chain-of-thought answers to the question, try your best to judge whether #CoT 2# is better than #CoT 1#. If #CoT 2# is better than #CoT 1#, write 'Yes'. If #CoT 1# is better than #CoT 2#, write 'No'.\n\n#Question#: " + question + "\n#CoT 1#: " + cot1 + "\n#CoT 2#: " + cot2 + "\n#Your Judgement#:"}
+        {"role": "user", "content": "Given a question and two Chain-of-Thought answers to the question, try your best to judge whether #CoT 2# is better than #CoT 1#. If #CoT 2# is better than #CoT 1#, write 'Yes'. If #CoT 1# is better than #CoT 2#, write 'No'.\n\n#Question#: " + question + "\n#CoT 1#: " + cot1 + "\n#CoT 2#: " + cot2 + "\n#Your Judgement#:"}
     ]
     while True:
         try:

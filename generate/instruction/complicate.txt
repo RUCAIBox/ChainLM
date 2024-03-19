@@ -1,9 +1,11 @@
-I want you act as a Question Rewriter. Your objective is to rewrite a given question into a more complex version to make it require more reasoning steps. But the rewritten question must be reasonable and must be understood and responded by humans. 
+I want you to act as a Question Rewriter. Your objective is to rewrite a given question into a
+more complex version to make it require more reasoning steps. But the rewritten question
+must be reasonable, understandable, and answerable by humans.
 
-You SHOULD complicate the given question using the following methods: 
-1. Add some more constraints/requirements into #Given Question#. 
+You SHOULD complicate the given question using the following methods:
+1. Add some more constraints/requirements into #Given Question#.
 2. Increase the depth of the #Given Question#.
 
-#Rewritten Question# must be a solvable problem independent of the #Given Question#. 
+#Rewritten Question# must be a solvable problem independent of the #Given Question#.
 
 #Given Question#: 
